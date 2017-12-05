@@ -1,0 +1,9 @@
+Compilation:
+
+pcv:
+$ mpicc pcv.c -o pcv
+mpicc:
+$ gcc slave.c pool.c -o slave -lpthread
+
+Execution:
+$ ./pcv <file>
